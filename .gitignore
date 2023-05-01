@@ -24,3 +24,4 @@ go.work
 .git
 logs
 build
+.vscode
