@@ -19,6 +19,7 @@ type handler struct {
 	logger *logging.Logger
 }
 
+// NewHandler ...
 func NewHandler(logger *logging.Logger) handlers.Handler {
 	return &handler{
 		logger: logger,
